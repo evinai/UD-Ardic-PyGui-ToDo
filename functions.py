@@ -12,6 +12,7 @@ def enumerate_list(to_dos):
         print(row)
 
 
+
 def get_todos(filepath=FILEPATH):
     """Returns a list of todos from a file"""
     with open(filepath, "r") as file:
@@ -19,13 +20,11 @@ def get_todos(filepath=FILEPATH):
     return to_dos
 
 
+
 def write_todos(todos_arg, filepath=FILEPATH):
     """Writes a list of todos to a file"""
     with open(filepath, "w") as file:
         file.writelines(todos_arg)
-
-
-
 
 
 

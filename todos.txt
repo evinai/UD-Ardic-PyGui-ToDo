@@ -1,5 +1,4 @@
 go running
-get lunch
 call home
 study math
 clear windowsclear windows

@@ -6,7 +6,7 @@ import functions
 todos = functions.get_todos()
 
 
-
+# add todo function
 def add_todo():
     todo = st.session_state['new_todo'] + "\n"
     todos.append(todo)
